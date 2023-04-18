@@ -3,7 +3,9 @@
 
 ## About
 The origian code of Life is Feudal does not stop you from connecting before the player spawns in the world at a 64/64 max capped server.
+
 This mod ensures that the player is kicked on character screen if the server is full, avoiding unnecessary load on the server as the connecting client would not be allowed in after being sent the latest map data. The process of sending map data to the client is resource intensive. 
+
 The mod was made when several servers were player capped for PVP and several people used SkunkFu's method of auto joining the server to gain a free slot. 
 Thus using this mod would minimize the impact for the 64 players already connected and playing.
 
