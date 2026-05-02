@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "FullServerFix",
+  "name": "FullServerFix",
+  "version": "1.0.0",
+  "description": "Disconnects clients on the character screen if the server is full, sparing the resource cost of full map sync.",
+  "authors": ["Christophe Roblin"],
+  "loadOrderHint": 100,
+  "files": {
+    "overlay": [
+      { "src": "mod.cs", "dest": "mods/FullServerFix/mod.cs" }
+    ],
+    "dataPatches": []
+  }
+}
