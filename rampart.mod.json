@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "id": "FullServerFix",
-  "name": "Full Server Fix",
+  "name": "FullServerFix",
   "version": "1.0.0",
-  "description": "Kicks a connecting client at the character screen when the server is already at its player cap, so the resource-intensive map-data send is not spent on a client that cannot be admitted.",
+  "description": "Disconnects clients on the character screen if the server is full, sparing the resource cost of full map sync.",
   "authors": ["Christophe Roblin"],
   "source": { "repo": "LiF-x/FullServerFix", "commit": "97c9b3d29ff91711e56f10d2d4dc73c199d826fd" },
   "baseline": { "gameBuild": "sha256:d47ef6156423f1226b6d07a1f31f81d3aa94bc460cc1ac76bcf7d7ef9c305d4a", "steamBuildId": "11261643" },
