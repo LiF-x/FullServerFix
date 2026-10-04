@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "FullServerFix",
+  "name": "FullServerFix",
+  "version": "1.0.0",
+  "description": "Disconnects clients on the character screen if the server is full, sparing the resource cost of full map sync.",
+  "authors": ["Christophe Roblin"],
+  "source": { "repo": "LiF-x/FullServerFix", "commit": "97c9b3d29ff91711e56f10d2d4dc73c199d826fd" },
+  "baseline": { "gameBuild": "sha256:d47ef6156423f1226b6d07a1f31f81d3aa94bc460cc1ac76bcf7d7ef9c305d4a", "steamBuildId": "11261643" },
+  "license": "GPL-3.0-only",
+  "distribution": "hostable",
+  "dependencies": ["LiF-x/ServerAutoloader"],
+  "loadOrderHint": 100,
+  "files": {
+    "overlay": [
+      { "src": "mod.cs", "dest": "mods/FullServerFix/mod.cs" }
+    ],
+    "dataPatches": []
+  }
+}
